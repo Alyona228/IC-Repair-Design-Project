@@ -1,0 +1,61 @@
+.page5{
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	width: 1440px;
+	height: 732px;
+	margin: auto;
+	position: static;
+}
+.page5__images{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.page5__texts{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	position: relative;
+	bottom:  130px;
+}
+.page5__buttons{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-right: 100px;
+}
+.page5__image{
+	width: 392px;
+	height: 421px;
+}
+.page5__text{
+	width: 330px;
+	height: 296px;
+	background: #FFFFFF;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 27px;
+	padding-left: 20px;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+}
+.page5__button{
+	width: 228px;
+	height: 54px;
+	font-family: Yeseva One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #E3B873;
+	box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.3);
+	position: relative;
+	bottom:  160px;
+	align-items: center;
+
+}

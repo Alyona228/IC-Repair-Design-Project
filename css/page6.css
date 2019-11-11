@@ -1,0 +1,45 @@
+.page6{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto;
+	height: 967px;
+	width: 1440px;
+	background-image: url(../images/Снимок14.JPG);
+	background-repeat: no-repeat;
+}
+.page6__free{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 19px;
+	color: #363636;
+	width: 508px;
+	height: 503px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+}
+.page6__form{
+	display: flex;
+	flex-direction: column;
+	font-family: Nunito Sans;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	width: 508px;
+	height: 503px;
+	background-image: url(../images/Снимок17.JPG);
+	background: #131313;
+	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
