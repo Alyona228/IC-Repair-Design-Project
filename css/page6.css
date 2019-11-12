@@ -28,6 +28,68 @@
 	-ms-flex-direction: column;
 	-o-flex-direction: column;
 	flex-direction: column;
+	list-style: ;
+
+/*the copy*/
+.rounded {
+counter-reset: li; 
+list-style: none; 
+font: 14px "Trebuchet MS", "Lucida Sans";
+padding: 0;
+text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+.rounded a {
+position: relative;
+display: block;
+padding: .4em .4em .4em 2em;
+margin: .5em 0;
+background: #DAD2CA;
+color: #444;
+text-decoration: none;
+border-radius: .3em;
+transition: .3s ease-out;
+}
+.rounded a:hover {background: #E9E4E0;}
+.rounded a:hover:before {transform: rotate(360deg);}
+.rounded a:before {
+content: counter(li);
+counter-increment: li;
+position: absolute;
+left: -1.3em;
+top: 50%;
+margin-top: -1.3em;
+background: #8FD4C1;
+height: 2em;
+width: 2em;
+line-height: 2em;
+border: .3em solid white;
+text-align: center;
+font-weight: bold;
+border-radius: 2em;
+transition: all .3s ease-out;
+}
+
+/*the copy end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
 }
 .page6__form{
 	display: flex;
@@ -42,4 +104,57 @@
 	background-image: url(../images/Снимок17.JPG);
 	background: #131313;
 	box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+}
+.page6__imput{
+	outline: none;
+	border-bottom: 2px;
+	
+	align-items: baseline;
+}
+.page6__button{
+	align-items: flex-start;
+	position: relative;
+	width: 213px;
+	height: 51px;
+	font-family: Nunito Sans;
+	font-size: 13px;
+	line-height: 21px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #E3B873;
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
+
+
+}
+.vector--pig{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	position: relative;
+	width: 72px;
+	height: 72px;
+	background: #E3B873;
+	box-shadow: 0px 10px 20px rgba(237, 192, 120, 0.2);
+	border: 2px;
+	border-radius: 50%; 
+	margin-top: -450px;
+	margin-left: 900px;
+	background-image: url(../images/Vector.png);
+	background-repeat: no-repeat;
+	background-size: 55px 55px; 
+}
+.vector__text{
+	position: relative; 
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	color: #E3B873;
+	text-shadow: 0px 3px 10px rgba(227, 184, 115, 0.15);
+	width: 200px;
+	margin-left: 100px;
+	flex-wrap: wrap;
+
 }

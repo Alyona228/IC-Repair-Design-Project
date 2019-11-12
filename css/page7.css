@@ -1,0 +1,56 @@
+.description{
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	width: 1440px;
+	height: 864px;
+	background-image: url(../images/1.7.jpg);
+	margin-top: 400px;
+	position: relative;
+	z-index: 1000;
+	background-image: url(../images/Rectangle7.1.jpg);
+}	
+.description__text{
+	margin-left: 99px;
+	margin-right: 77px;
+	width: 411px;
+	margin-top: 137px;
+}
+.header7{
+	font-family: Yeseva One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: #E3B873;
+
+}
+.discription__list{
+	list-style: none;
+	padding: 0;
+}
+.description__room{
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 38px;
+	color: #FFFFFF;
+	position: relative;
+}
+.discription__images{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+.description__images--left{
+	margin-right: 50px;
+	top: -41px;
+}
+.description__images--right{
+	top: -112px;
+}
+.description__image--bottom{
+	margin-top: 39px; 
+}
