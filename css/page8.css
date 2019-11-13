@@ -1,0 +1,91 @@
+.page7-8{
+	text-align: center;
+	font-family: Yeseva One;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #181818;
+}
+.page7-8--bottom{
+	font-family: Nunito Sans;
+	font-size: 18px;
+	line-height: 29px;
+	color: #363636;
+	width: 753px;
+	height: 67px;
+	display: block;
+	margin: auto;
+}
+.page7-8--centr{
+	width: 165px;
+	height: 45px;
+	margin: auto;
+	display: block;
+}
+.page8__bg{
+	position: relative;
+	width: 1440px;
+	height: 1616px;
+	background: #131313;
+	margin: 318px auto 0 auto;
+	
+}
+.page8{
+margin: auto;
+position: relative;
+
+}
+
+.page8__rooms{
+	display: flex;
+	margin: auto;
+	flex-direction: row;
+	position: relative;
+	width: 392px;
+	justify-content: center;
+	width: 1440px;
+	height: 732px;
+
+	
+}
+.page8__image{
+	
+	justify-content:center;
+	margin-top: 39px;
+	margin-left: 100px;
+	margin-right: 10px;
+	position: relative;
+}
+.page8__text{
+	display: flex;
+	background: #FFFFFF;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+	left: 70.1%;
+	right: 11.34%;
+	top: 59.1%;
+	bottom: 37.98%;
+	font-family: Nunito Sans;
+	font-size: 13px;
+	line-height: 27px;
+	color: #959595;
+	border: 3px;
+	width: 330px;
+	margin: auto;
+}	
+.page8__button{
+	display: flex;
+	background: #E3B873;
+	box-shadow: 5px 5px 10px rgba(227, 184, 115, 0.1);
+	width: 228px;
+	height: 54px;
+	font-family: Yeseva One;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 25px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	margin: auto;
+
+}
