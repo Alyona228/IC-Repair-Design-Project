@@ -1,0 +1,40 @@
+.page10{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+	margin: auto;
+	width: 1440px;
+	height: 954px;
+	margin: auto;
+	background-image: url(../images/10.1.jpg);
+}
+.footor{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+	margin: auto;
+	width: 1440px;
+	height: 133px;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	-o-flex-direction: row;
+	flex-direction: row;
+	font-family: Nunito Sans;
+	font-style: italic;
+	font-size: 11px;
+	line-height: 15px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	background: #181818;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: nowrap;
+}

@@ -1,102 +1,109 @@
-.page2{
-	
-	display: flex;
-	flex-direction: row;
-	width: 1440px;
-	height: 1074px; 
-	background: #131313;
-	align-items: flex-start;
-	margin: auto;
-	padding: 107px 134px 0 134px;
-	box-sizing: border-box;	
+.page2 {
+
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 1074px;
+    background: #131313;
+    align-items: flex-start;
+    margin: auto;
+    padding: 107px 134px 0 134px;
+    box-sizing: border-box;
 }
 
 
-.page2__side--left{
-	width: 492px;
-	height: 551px;
-	background: red;
-}
-.page2__side--right{
-	width: 814px;
-	height: 658px;
-	background: yellow;
-}
-.page2__buttons{
-	display: flex;
-	justify-content: space-between;
-	height: 16.32px;
-	font-family: Yeseva One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: 19px;
-	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.3);
-	margin-bottom: 50px;
-}
-.page2__side--left{
-	margin-top: 53px;
-	margin-right:50px;
-}
-.page2__title{
-	font-family: Yeseva One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 27px;
-	line-height: 37px;
-	letter-spacing: -0.07em;
-	text-transform: uppercase;
-
-	color: #E3B873;
-}
-.page2__text{
-	ont-family: Nunito Sans;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 27px;
-
-color: #FFFFFF;
-}
-.page2__params{
-	display: flex;
-	justify-content: flex-start;
-	flex-wrap: wrap;
-}
-.page2__params--sity{
-	font-family: Nunito Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 21px;
-	color: #FFFFFF;
-}
-.page2__params--appart{
-	ont-family: Yeseva One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	color: #E3B873;
-}
-.page2__params--sity{
-	nt-family: Yeseva One;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 18px;
-	line-height: 25px;
-	text-transform: uppercase;
-	color: #E3B873;
-}
-.page2__params--sity2{
-	ont-family: Nunito Sans;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 13px;
-	line-height: 21px;
-	color: #FFFFFF;
-
+.page2__side--left {
+    width: 492px;
+    height: 551px;
+    background: red;
 }
 
+.page2__side--right {
+    width: 814px;
+    height: 658px;
+    background: yellow;
+}
+
+.page2__buttons {
+    display: flex;
+    justify-content: space-between;
+    height: 16.32px;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 50px;
+}
+
+.page2__side--left {
+    margin-top: 53px;
+    margin-right: 50px;
+}
+
+.page2__title {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.page2__text {
+    ont-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.page2__params {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.page2__params--sity {
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.page2__params--appart {
+    ont-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.page2__params--sity {
+    nt-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.page2__params--sity2 {
+    ont-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}

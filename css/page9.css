@@ -1,0 +1,116 @@
+.page9{
+	display: block;
+	position: relative;
+	width: 1440px;
+	height: 1589px;
+	margin: auto;
+	flex-direction: column;
+	top: -400px;
+}
+.page9__background{
+	background-image: url(../images/33.svg);
+	width: 1440px;
+	margin: auto;
+	position: relative;
+
+}
+.page9__title{
+	margin: auto;
+	color: #FFFFFF;
+	text-align: center;
+	width: 476px;
+	font-family: Yeseva One;
+	font-size: 20px;
+	line-height: 28px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	
+}
+.page9__title--botton{
+	font-family: Nunito Sans;
+	font-size: 18px;
+	line-height: 29px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.page9__portfolio{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	position: relative;
+	margin: auto;
+	flex-direction: row;
+	width: 1100px;
+	
+}
+.page9__vector{
+	
+	left: 50px;
+	top: -40px;
+	position: relative;
+
+
+}
+.page9__text{
+	position: absolute;
+	left: 30.67%;
+	right: 30.53%;
+	top: 77.26%;
+	bottom: 21.4%;
+	font-family: Nunito Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 37px;
+	text-align: center;
+	color: #363636;
+	top: 800px;
+}
+
+
+
+
+
+
+
+	
+}
+.button9{
+	background: #E3B873;
+	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+	border-radius: 2px;
+	width: 161px;
+	height: 37px;
+	text-align: center;
+	position: relative;
+	bottom: 20px;
+}
+
+.fio{
+	Font Family: Yeseva One
+	Font Style: Regular
+	Font Size: 18px
+	Line Height: 24.95px
+	Line Height: 120%
+	Align: Center
+	Vertical Align: Top
+	Fill: Solid
+	color: #181818;
+	width: 233px;
+	height: 137px;
+	background: #FFFFFF; 
+	border: 2px solid black;
+	Font Family: Yeseva One
+	margin: auto;
+	position: relative;
+
+
+}
+.profession{
+	width: 233px;
+	height: 44px;
+	border: 2px Solid #E3B873;
+	background: #E3B873;
+}
