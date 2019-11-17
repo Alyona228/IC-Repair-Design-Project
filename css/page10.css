@@ -1,40 +1,241 @@
-.page10{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	position: relative;
-	margin: auto;
-	width: 1440px;
-	height: 954px;
-	margin: auto;
-	background-image: url(../images/10.1.jpg);
+.page10 {
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    top: 500px;
 }
-.footor{
-	display: -webkit-flex;
-	display: -moz-flex;
-	display: -ms-flex;
-	display: -o-flex;
-	display: flex;
-	position: relative;
-	margin: auto;
-	width: 1440px;
-	height: 133px;
-	-webkit-flex-direction: row;
-	-moz-flex-direction: row;
-	-ms-flex-direction: row;
-	-o-flex-direction: row;
-	flex-direction: row;
-	font-family: Nunito Sans;
-	font-style: italic;
-	font-size: 11px;
-	line-height: 15px;
-	text-align: center;
-	text-transform: uppercase;
-	color: #FFFFFF;
-	background: #181818;
-	justify-content: space-between;
-	align-items: center;
-	flex-wrap: nowrap;
+
+.page10__title--botton {
+    font-family: Nunito Sans;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+    width: 456px;
+    position: relative;
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.page10__title {
+    font-family: Yeseva One;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.page10__people {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    margin: auto;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 1440px;
+    height: 200px;
+    top: 200px;
+
+}
+
+.ppage10__face {
+    width: 326px;
+    height: 428px;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+
+}
+
+.page10__foto {
+    margin-auto;
+    border-radius: 50%;
+}
+
+.page10__name {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    color: #181818;
+    text-align: left;
+    width: 178px;
+    height: 42px;
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}
+
+.page10__biography {
+    width: 324px;
+    height: 216px;
+    font-family: Nunito Sans;
+    font-size: 13px;
+    line-height: 180%;
+    text-align: left;
+    color: #959595;
+    margin: 22px 32px 90px 20px;
+}
+
+.page10__select {
+    display: flex;
+    align-items: flex-start;
+    top: 450px;
+    left: 10px;
+    position: relative;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    align-items: flex-start;
+    left: 20px;
+
+}
+
+.page10__button {
+    height: 54px;
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    padding: 10px;
+    color: white;
+    min-width: 10%;
+    border: 1px solid #8B4513;
+}
+
+.page10__button:nth-child(even) {
+    margin-right: 90px;
+}
+
+.page10__button:nth-child(6n) {
+    margin-right: 210px;
+}
+
+.page10__layers {
+    background-image: url(../images/page10.jpg);
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 953px;
+    margin-top: 800px;
+}
+
+.page10__maps {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    justify-content: center;
+    align-content: center;
+    left: 250px;
+}
+
+
+.page10__vizit {
+    width: 883px;
+    height: 445px;
+    background: #C4C4C4;
+    position: relative;
+    display: block;
+    margin: 700px auto;
+    bottom: 200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.page10__question {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top:34px;
+}
+
+.page10__contacts {
+    font-family: Nunito Sans;
+    font-size: 14px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.page10__botom {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #E3B873;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -800px;
+    width: 589px;
+}
+
+.page10__smail {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+
+
+}
+
+.page10__button1 {
+    botton: 500px;
+    width: 200px;
+    height: 51px;
+    position: relative;
+    margin: 0 auto;
+    text-transform: uppercase;
+    background: #E3B873;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1) font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 27px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
+}
+
+.page10__footor {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 1440px;
+    height: 133px;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    -o-flex-direction: row;
+    flex-direction: row;
+    font-family: Nunito Sans;
+    font-style: italic;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #181818;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+
 }
