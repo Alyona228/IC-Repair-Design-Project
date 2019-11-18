@@ -1,43 +1,51 @@
 .page2 {
-
+    padding-top: 107px;
     display: flex;
-    flex-direction: row;
     width: 1440px;
-    height: 1074px;
+    height: 857px;
     background: #131313;
     align-items: flex-start;
     margin: auto;
-    padding: 107px 134px 0 134px;
+    position: relative;
     box-sizing: border-box;
 }
-
 
 .page2__side--left {
     width: 492px;
     height: 551px;
-    background: red;
 }
 
 .page2__side--right {
     width: 814px;
     height: 658px;
-    background: yellow;
 }
-
+.page2__img{
+    width: 679px;
+    height: 472px;
+}
 .page2__buttons {
     display: flex;
     justify-content: space-between;
-    height: 16.32px;
     font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.3);
     margin-bottom: 50px;
+    width: 625px;
 }
-
+.page2__button{
+    font-family: Yeseva One;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+.page2__button--current{
+    color: #E3B873;
+    border-bottom: 1px solid  #E3B873;
+    padding-bottom: 7px;
+}
 .page2__side--left {
     margin-top: 53px;
     margin-right: 50px;
