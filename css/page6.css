@@ -3,7 +3,6 @@
 	flex-direction: row;
 	justify-content: space-between;
 	margin: auto;
-	height: 967px;
 	width: 1440px;
 	background-image: url(../images/Снимок14.JPG);
 	background-repeat: no-repeat;
@@ -29,6 +28,7 @@
 	-o-flex-direction: column;
 	flex-direction: column;
 	list-style: ;
+}
 
 /*the copy*/
 .rounded {
@@ -72,7 +72,9 @@ transition: all .3s ease-out;
 /*the copy end*/
 
 
-
+.page6__form{
+	background: black;
+}
 
 
 

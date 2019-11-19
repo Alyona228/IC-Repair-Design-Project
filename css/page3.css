@@ -6,6 +6,7 @@
     margin: auto;
     width: 1440px;
     height: 542px;
+    top:-92px;
 }
 
 .page3__background {
@@ -28,13 +29,15 @@
     text-transform: uppercase;
     color: #FFFFFF;
     position: relative;
-    top: 31px;
+    bottom: 12px;
 }
 .page3__image{
     position: relative;
     width: 33px;
     height: 28px;
     margin: auto;
+    bottom: 31px;
+
 }
 .page3__image::before{
     content: "";
