@@ -78,8 +78,18 @@
     margin-left: 100px;
 }
 .page4__lagree {
+    width: 30px;
+    position: relative;
+    top: 4px;
+}
+.page4__input{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-direction: row;
+    height: 30px;
+    text-align: center;
     margin-top: 48px;
-    border: 1.5px solid #FFFFFF;
-    width: 300px;
-    text-align: left;
 }
