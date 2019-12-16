@@ -1,7 +1,12 @@
+body {
+    width: 1440px;
+    height: 10150px;
+}
+
 .top {
     background: #131313;
     height: 83px;
-    width: 1438px;
+    width: 1440px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -11,7 +16,9 @@
     -ms-align-items: center;
     align-items: center;
     margin: auto;
+    position: sticky;
 }
+
 .logo {
     font-size: 14px;
     color: #e3b873;
@@ -40,9 +47,8 @@
     white-space: nowrap;
 }
 
-.header-button {
+.button {
     position: relative;
-    display: block;
     margin-left: 0px;
     margin-right: 90px;
     border-radius: 2px;
@@ -54,6 +60,10 @@
     height: 37px;
     white-space: nowrap;
     border: none;
+    text-align: center;
+    width: 213px;
+    height: 51px;
+    font-family: Nunito Sans;
 }
 
 .page1__opacity {
@@ -152,4 +162,69 @@
 
 .header__button--left {
     margin-left: 20px;
+}
+@media (max-width: 400px){
+    body {
+        width: 400px;
+    }
+    .header__buttons{
+    flex-direction: column;
+    }
+    .header__button {
+    width: 338px;
+    margin:0;
+    flex-wrap: wrap;
+    left: 14px;
+    justify-content: flex-start;
+    }
+.header {
+    background-image: url(../images/image4.png);
+    position: relative;
+    display: flex;
+    width: 400px;
+    height: 476px;
+    margin: 0;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -o-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 18px;
+    background-size: 375px 476px;
+}
+
+.header__title {
+    font-family: "Yeseva One";
+    font-size: 23px;
+    line-height: 132.83%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: relative;
+    width: 339px;
+    height: 60px;
+}
+
+.header__title--city {
+    color: #E3B873;
+    font-size: 23px;
+    line-height: 132.83%;
+    text-transform: uppercase;
+    }
+
+.header__text {
+    color: #FFFFFF;
+    margin-top: 19px;
+    position: relative;
+    width: 339px;
+    height: 94px;
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135.84%;
+    }
 }

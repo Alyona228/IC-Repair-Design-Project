@@ -44,21 +44,13 @@
     padding-left: 335px;
 }
 .page4__button {
-    font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 23px;
-    color: #363636;
     width: 231px;
-    text-align: left;
     border-bottom: 1px solid rgba(54, 54, 54, 0.3);
     box-sizing: border-box;
+    text-align: left;
 }
 .page4__phone {
     font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 21px;
     color: rgba(54, 54, 54, 0.5);
@@ -69,10 +61,6 @@
     padding-top: 10px;
     font-size: 13px;
     line-height: 27px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    background: #E3B873;
     box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15);
     border-radius: 2px;
     margin-left: 100px;

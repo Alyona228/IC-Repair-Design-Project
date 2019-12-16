@@ -2,12 +2,20 @@
     position: relative;
     margin: auto;
     width: 1440px;
-    top: 500px;
-    height:1523;
+    margin-top: -450px;
+}
+.page10__backgraund{
+    width: 1440px;
+    height: 242px;
+    background-image: url(../images/page10.1.jpg);
+    opacity: 0.2;
+    background-size:1440px 242px;
+    background-position: center;
+    margin-top: 500px;
 }
 
 .page10__title--botton {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-size: 18px;
     line-height: 29px;
     text-align: center;
@@ -16,12 +24,10 @@
     position: relative;
     display: block;
     margin: 0 auto;
-
-
 }
 
 .page10__title {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -42,7 +48,6 @@
     width: 1440px;
     height: 200px;
     top: 200px;
-
 }
 
 .ppage10__face {
@@ -50,16 +55,15 @@
     height: 428px;
     background: #FFFFFF;
     box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
-
 }
 
 .page10__foto {
-    margin-auto;
+    margin: auto;
     border-radius: 50%;
 }
 
 .page10__name {
-    font-family: Yeseva One;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -76,7 +80,7 @@
 .page10__biography {
     width: 324px;
     height: 216px;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-size: 13px;
     line-height: 180%;
     text-align: left;
@@ -117,12 +121,18 @@
 }
 
 .page10__layers {
-    background-image: url(../images/page10.jpg);
     position: relative;
-    margin: auto;
     width: 1440px;
     height: 953px;
-    margin-top: 800px;
+    background-image: url(../images/image7.2.jpg);
+}
+
+.page10__layers1 {
+    background-color: black;
+    opacity: 0.9;
+    width: 1440px;
+    height: 953px;
+    
 }
 
 .page10__maps {
@@ -134,22 +144,25 @@
     left: 250px;
 }
 
-
-.page10__vizit {
-    width: 883px;
-    height: 445px;
-    background: #C4C4C4;
-    position: relative;
-    display: block;
-    margin: 700px auto;
-    bottom: 200px;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.page10__form {
+        background: black;
+        display: flex;
+        flex-direction: column;
+        font-family: "Nunito Sans";
+        box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+        width: 883px;
+        height: 445px;
+        position: relative;
+        display: block;
+        bottom: 1200px;
+        flex-direction: row;
+        flex-wrap: wrap;
+        left: 300px;
 }
 
 .page10__question {
-    font-family: Yeseva One;
+    padding-top: 34px;
+    font-family: "Yeseva One";
     font-style: normal;
     font-weight: normal;
     font-size: 20px;
@@ -157,59 +170,53 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    padding-top:34px;
+}
+.page10__button {
+    left: 341px;
 }
 
 .page10__contacts {
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-size: 14px;
     line-height: 23px;
     color: #FFFFFF;
 }
 
 .page10__botom {
-    font-family: Yeseva One;
-    font-style: normal;
-    font-weight: normal;
+    font-family: "Yeseva One";
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: -600px;
+    width: 589px;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
     text-transform: uppercase;
     color: #E3B873;
-    position: relative;
-    margin: 0 auto;
-    text-align: center;
-    margin-top: -800px;
-    width: 589px;
 }
 
 .page10__smail {
     position: relative;
     margin: 0 auto;
     text-align: center;
-
-
 }
 
 .page10__button1 {
-    botton: 500px;
+    bottom: 500px;
     width: 200px;
     height: 51px;
     position: relative;
     margin: 0 auto;
     text-transform: uppercase;
     background: #E3B873;
-    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1) font-family: Nunito Sans;
-    font-style: normal;
-    font-weight: normal;
+    box-shadow: 0px 5px 20px rgba(227, 184, 115, 0.1);
+    font-family: 'Nunito Sans';
     font-size: 13px;
     line-height: 27px;
     text-align: center;
     text-transform: uppercase;
-
     color: #FFFFFF;
-
-
 }
 
 .page10__footor {
@@ -227,16 +234,21 @@
     -ms-flex-direction: row;
     -o-flex-direction: row;
     flex-direction: row;
-    font-family: Nunito Sans;
+    font-family: "Nunito Sans";
     font-style: italic;
     font-size: 11px;
     line-height: 15px;
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    background: #181818;
+    background:black;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;
+}
 
+@media (max-width: 400px) {
+    .page10__title--botton {
+        display: none;
+    }
 }

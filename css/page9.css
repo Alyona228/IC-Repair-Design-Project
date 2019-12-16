@@ -1,30 +1,36 @@
-.page9{
+.page9 {
 	display: block;
 	position: relative;
 	width: 1440px;
-	height: 1589px;
+	height: 1000px;
 	margin: auto;
 	flex-direction: column;
 	top: -400px;
 }
-.page9__background{
-	background-image: url(../images/33.svg);
+
+.page9__background {
 	width: 1440px;
 	margin: auto;
 	position: relative;
 
 }
-.page9__title{
+
+.page9__title {
 	margin: auto;
-	color: #FFFFFF;
+	margin-top: -100px;
+	margin-bottom: 100px;
 	text-align: center;
+}
+
+.title {
 	font-family: Yeseva One;
 	font-size: 20px;
 	line-height: 28px;
 	text-transform: uppercase;
 	color: #FFFFFF;
 }
-.page9__title--botton{
+
+.page9__title--botton {
 	font-family: Nunito Sans;
 	font-size: 18px;
 	line-height: 29px;
@@ -32,8 +38,11 @@
 	color: #FFFFFF;
 	width: 476px;
 	margin: auto;
+	width: 476px;
+	height: 57px;
 }
-.page9__portfolio{
+
+.page9__portfolio {
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -45,13 +54,15 @@
 	width: 1100px;
 	right: 80px;
 }
-.page9__vector{
-	
+
+.page9__vector {
+
 	left: 50px;
 	top: -40px;
 	position: relative;
 }
-.button9{
+
+.button9 {
 	background: #E3B873;
 	box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
 	border-radius: 2px;
@@ -61,7 +72,8 @@
 	position: relative;
 	bottom: 20px;
 }
-.fio{
+
+.fio {
 	font-size: 18px;
 	line-height: 24.95px;
 	line-height: 120%;
@@ -69,18 +81,19 @@
 	width: 233px;
 	height: 93px;
 	font-family: Yeseva One;
-	text-align: center; 
+	text-align: center;
 	margin: auto;
 	position: relative;
 	top: -90px;
 	padding-top: 22px;
 	background: #FFFFFF;
-box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
+	box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
 }
-.profession{
+
+.profession {
 	width: 233px;
 	height: 44px;
-	border: 2px solid  #E3B873;
+	border: 2px solid #E3B873;
 	background: #E3B873;
 	font-family: Yeseva One;
 	font-size: 13px;
@@ -91,7 +104,8 @@ box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
 	margin-top: -90px;
 	margin-left: 20px;
 }
-.present-post{
+
+.present-post {
 	font-family: Nunito Sans;
 	font-style: normal;
 	font-weight: normal;
@@ -100,7 +114,8 @@ box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
 	text-align: center;
 	color: #959595;
 }
-.page9__text{
+
+.page9__text {
 	position: absolute;
 	left: 30.67%;
 	right: 30.53%;
@@ -114,4 +129,16 @@ box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.05);
 	top: 700px;
 	width: 538px;
 	height: 153px;
+}
+
+.people {
+	display: flex;
+	justify-content: space-between;
+}
+
+@media (max-width: 400px) {
+	.page9__portfolio {
+		flex-direction: column;
+		background-color: red;
+	}
 }
