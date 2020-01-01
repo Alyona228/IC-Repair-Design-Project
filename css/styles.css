@@ -163,68 +163,72 @@ body {
 .header__button--left {
     margin-left: 20px;
 }
-@media (max-width: 400px){
-    body {
-        width: 400px;
+
+@media (max-width: 400px) {
+    .header__buttons {
+        flex-direction: column;
     }
-    .header__buttons{
-    flex-direction: column;
-    }
+
     .header__button {
-    width: 338px;
-    margin:0;
-    flex-wrap: wrap;
-    left: 14px;
-    justify-content: flex-start;
-    }
-.header {
-    background-image: url(../images/image4.png);
-    position: relative;
-    display: flex;
-    width: 400px;
-    height: 476px;
-    margin: 0;
-    -webkit-flex-direction: column;
-    -moz-flex-direction: column;
-    -ms-flex-direction: column;
-    -o-flex-direction: column;
-    flex-direction: column;
-    justify-content: center;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 18px;
-    background-size: 375px 476px;
-}
-
-.header__title {
-    font-family: "Yeseva One";
-    font-size: 23px;
-    line-height: 132.83%;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: relative;
-    width: 339px;
-    height: 60px;
-}
-
-.header__title--city {
-    color: #E3B873;
-    font-size: 23px;
-    line-height: 132.83%;
-    text-transform: uppercase;
+        width: 338px;
+        margin: 0;
+        flex-wrap: wrap;
+        left: 14px;
+        justify-content: flex-start;
     }
 
-.header__text {
-    color: #FFFFFF;
-    margin-top: 19px;
-    position: relative;
-    width: 339px;
-    height: 94px;
-    font-family: "Nunito Sans";
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 135.84%;
+    .header__button--left {
+        margin-top: 26px;
+    }
+
+    .header {
+        background-image: url(../images/image4.png);
+        position: relative;
+        display: flex;
+        width: 400px;
+        height: 476px;
+        margin: 0;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: center;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 18px;
+        background-size: 375px 476px;
+    }
+
+    .header__title {
+        font-family: "Yeseva One";
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        position: relative;
+        width: 339px;
+        height: 60px;
+    }
+
+    .header__title--city {
+        color: #E3B873;
+        font-size: 23px;
+        line-height: 132.83%;
+        text-transform: uppercase;
+    }
+
+    .header__text {
+        color: #FFFFFF;
+        margin-top: 19px;
+        position: relative;
+        width: 339px;
+        height: 94px;
+        font-family: "Nunito Sans";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 135.84%;
     }
 }

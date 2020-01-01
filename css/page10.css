@@ -4,12 +4,13 @@
     width: 1440px;
     margin-top: -450px;
 }
-.page10__backgraund{
+
+.page10__backgraund {
     width: 1440px;
     height: 242px;
     background-image: url(../images/page10.1.jpg);
     opacity: 0.2;
-    background-size:1440px 242px;
+    background-size: 1440px 242px;
     background-position: center;
     margin-top: 500px;
 }
@@ -132,7 +133,7 @@
     opacity: 0.9;
     width: 1440px;
     height: 953px;
-    
+
 }
 
 .page10__maps {
@@ -145,19 +146,19 @@
 }
 
 .page10__form {
-        background: black;
-        display: flex;
-        flex-direction: column;
-        font-family: "Nunito Sans";
-        box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
-        width: 883px;
-        height: 445px;
-        position: relative;
-        display: block;
-        bottom: 1200px;
-        flex-direction: row;
-        flex-wrap: wrap;
-        left: 300px;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    font-family: "Nunito Sans";
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.05);
+    width: 883px;
+    height: 445px;
+    position: relative;
+    display: block;
+    bottom: 1200px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    left: 300px;
 }
 
 .page10__question {
@@ -171,6 +172,7 @@
     text-transform: uppercase;
     color: #FFFFFF;
 }
+
 .page10__button {
     left: 341px;
 }
@@ -241,7 +243,7 @@
     text-align: center;
     text-transform: uppercase;
     color: #FFFFFF;
-    background:black;
+    background: black;
     justify-content: space-between;
     align-items: center;
     flex-wrap: nowrap;

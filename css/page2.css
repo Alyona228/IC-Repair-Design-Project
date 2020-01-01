@@ -86,13 +86,14 @@
     width: 442px;
     height: 86px;
     font-family: "Nunito Sans";
+    margin-bottom: 42px;
 }
 
 .page2__params {
     display: flex;
     flex-wrap: wrap;
     position: relative;
-    margin-top: 42px;
+    top: 42px;
 }
 
 .page2__params:nth-child(even) {
@@ -121,8 +122,6 @@
 
 .page2__params--appart {
     font-family: "Yeseva One";
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -131,8 +130,6 @@
 
 .page2__params--sity {
     font-family: "Yeseva One";
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 25px;
     text-transform: uppercase;
@@ -141,17 +138,40 @@
 
 .page2__params--sity2 {
     font-family: "Nunito Sans";
-    font-style: normal;
-    font-weight: normal;
     font-size: 13px;
     line-height: 21px;
     color: #FFFFFF;
+}
+
+.page2__images {
+    display: none;
 }
 
 @media (max-width: 400px) {
     .page2 {
         width: 400px;
         flex-direction: column;
+        margin: 0;
+    }
+
+    .page2__params {
+        width: 340px;
+        height: 220px;
+    }
+
+    .page2__img {
+        display: none;
+    }
+
+    .page2__params {
+        font-size: 14px;
+        line-height: 138.6%;
+        font-family: 'Yeseva One';
+        text-transform: uppercase;
+        color: #E3B873;
+        width: 400px;
+        height: 350px;
+
     }
 
     .page2__title {
@@ -174,12 +194,19 @@
     .page2__text {
         position: relative;
         color: #FFFFFF;
-        font-family: "Nunito Sans";
+        font-family: 'Nunito Sans';
         font-size: 11px;
         line-height: 158.48%;
         text-align: center;
         width: 311px;
         height: 86px;
+
+        top: 7.47%;
+        bottom: 91.55%;
+    }
+
+    .page2__buttons {
+        display: none;
     }
 
     .page2__side--left {
@@ -199,12 +226,39 @@
         padding-right: 32px;
     }
 
-    .page2__img {
-        background-image: url(../images/image2.2.jpg);
+    .page2__images {
+        background-image: url(../images/image2.1.jpg);
+        position: relative;
+        display: flex;
         width: 340px;
         height: 241px;
+        margin-top: 38px;
+        margin-left: -10px;
+        background-size: cover;
     }
-    .page2__params {
-        display: none;
+
+    .page2__arrow {
+        border-radius: 50%;
+        background: #E3B873;
+        width: 38px;
+        height: 38px;
+        position: static;
+        margin-top: 100px;
+        margin-left: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .page2__arrow svg {
+        width: 10px;
+        height: 16px;
+    }
+
+    .page2__arrow--rigth {
+        transform: rotate(-180deg);
+        margin-top: 100px;
+        margin-left: 240px;
     }
 }
